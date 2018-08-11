@@ -13,6 +13,8 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { PerroComponent } from './perro/perro.component';
 import { GatoComponent } from './gato/gato.component';
+import { SliderComponent } from './slider/slider.component';
+import { PruebaComponent } from './prueba/prueba.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { GatoComponent } from './gato/gato.component';
     AboutComponent,
     ContactoComponent,
     PerroComponent,
-    GatoComponent
+    GatoComponent,
+    SliderComponent,
+    PruebaComponent
   ],
   imports: [
     BrowserModule,
