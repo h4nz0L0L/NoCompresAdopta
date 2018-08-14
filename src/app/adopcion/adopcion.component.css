@@ -3,11 +3,11 @@
   }
   .contenedor-oficios {
       display: grid;
-      grid-template-columns: 2fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
       background-color: rgb(252, 252, 252);
       padding-top: 1%;
       padding-left: 5%;
-      padding-right: 20%;
+      padding-right: 5%;
     }
     .seccion-oficio {
       background-color: #01851e;
