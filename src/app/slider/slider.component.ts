@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SliderComponent implements OnInit {
   images: Array<string> = [
-    'assets/500.jpg',
+    'assets/505.jpg',
     'assets/501.jpg',
-    'assets/502.jpeg'
+    'assets/503.jpg'
   ];
 
   
