@@ -1,12 +1,12 @@
 .background-white{
-    height: 1500px;
+    height: 1200px;
   }
   .contenedor-oficios {
       display: grid;
-      grid-template-columns: 2fr 1fr 1fr;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
       background-color: rgb(252, 252, 252);
       padding-top: 1%;
-      padding-left: 20%;
+      padding-left: 5%;
       padding-right: 20%;
     }
     .seccion-oficio {
