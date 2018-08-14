@@ -15,6 +15,7 @@ import { PerroComponent } from './perro/perro.component';
 import { GatoComponent } from './gato/gato.component';
 import { SliderComponent } from './slider/slider.component';
 import { PruebaComponent } from './prueba/prueba.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { PruebaComponent } from './prueba/prueba.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

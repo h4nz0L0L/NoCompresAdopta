@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import Swiper from 'swiper'
 
 @Component({
   selector: 'app-slider',
@@ -7,16 +6,16 @@ import Swiper from 'swiper'
   styleUrls: ['./slider.component.css']
 })
 export class SliderComponent implements OnInit {
+  images: Array<string> = [
+    'assets/500.jpg',
+    'assets/501.jpg',
+    'assets/502.jpeg'
+  ];
 
+  
   constructor() { }
 
   ngOnInit() {
-
-    var mySwiper = new Swiper ('.swiper-container', {
-      // Optional parameters
-      direction: 'vertical',
-      loop: true
-    })
   }
 
 }
