@@ -1,22 +1,22 @@
-// import { Component, OnInit } from '@angular/core';
-// import Swiper from 'swiper'
+import { Component, OnInit } from '@angular/core';
+import Swiper from 'swiper'
 
-// @Component({
-//   selector: 'app-slider',
-//   templateUrl: './slider.component.html',
-//   styleUrls: ['./slider.component.css']
-// })
-// export class SliderComponent implements OnInit {
+@Component({
+  selector: 'app-slider',
+  templateUrl: './slider.component.html',
+  styleUrls: ['./slider.component.css']
+})
+export class SliderComponent implements OnInit {
 
-//   constructor() { }
+  constructor() { }
 
-//   ngOnInit() {
+  ngOnInit() {
 
-//     var mySwiper = new Swiper ('.swiper-container', {
-//       // Optional parameters
-//       direction: 'vertical',
-//       loop: true
-//     })
-//   }
+    var mySwiper = new Swiper ('.swiper-container', {
+      // Optional parameters
+      direction: 'vertical',
+      loop: true
+    })
+  }
 
-// }
+}
