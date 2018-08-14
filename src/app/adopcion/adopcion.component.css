@@ -1,0 +1,62 @@
+.background-white{
+    height: 1500px;
+  }
+  .contenedor-oficios {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      background-color: rgb(252, 252, 252);
+      padding-top: 1%;
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+    .seccion-oficio {
+      background-color: #01851e;
+      border: 15px solid white;
+      padding: 2px;
+      height: 370px;
+      text-align: center;
+    }
+  
+    .serv{
+      padding-left: 22%;
+      color: rgb(62, 92, 224);
+      text-transform: uppercase;
+      font-family: Roboto, Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      padding-top: 10%;
+    }
+  
+    .oficio-nombre{
+      background-color: rgb(1, 1, 0);
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      font-family: Roboto, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      height: 50px;
+      color: white;
+    }
+    
+    .nombre-oficio{
+        text-align: center;
+        font-size: 26px;
+        text-transform: uppercase;
+        font-family: "PT Sans",Arial, Helvetica, sans-serif;
+        padding: 1px 2px 2px 5px;
+    }
+    
+    .oficio-imagen{
+        padding-top: 20px;
+  
+    }
+  
+  /* Footer */
+  .footer {
+    position: flex;
+    margin-bottom: 1px;
+    padding: 60px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    color: white;
+    margin-top: 0px;
+    font-size: 12px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+  
+  }
