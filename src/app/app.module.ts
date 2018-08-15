@@ -16,6 +16,8 @@ import { GatoComponent } from './gato/gato.component';
 import { SliderComponent } from './slider/slider.component';
 import { PruebaComponent } from './prueba/prueba.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { LoginComponent } from './login/login.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     PerroComponent,
     GatoComponent,
     SliderComponent,
-    PruebaComponent
+    PruebaComponent,
+    LoginComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

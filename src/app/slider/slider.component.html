@@ -1,23 +1,34 @@
-<ngb-carousel *ngIf="images">
+<ngb-carousel id="carrusel" *ngIf="images">
     <ng-template ngbSlide>
       <img [src]="images[0]" alt="Random first slide">
       <div class="carousel-caption">
         <h3>Promover la adopcion de perros y gatos callejeros</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <p>yuda a promocionar los albergues para animales, elaborando folletos pequeños que puedes 
+          repartir en lugares públicos. Esto no te puede tomar más de quince minutos, si aprovechas 
+          que hoy en día, las computadoras convierten este tipo de trabajos en algo muy sencillo y 
+          rápido de multiplicar.
+        </p>
       </div>
     </ng-template>
     <ng-template ngbSlide>
       <img [src]="images[1]" alt="Random second slide">
       <div class="carousel-caption">
         <h3>No compres, mejor adopta</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>A nivel nacional se recogen aproximadamente 696 toneladas de excremento al día. 
+          Datos de la Secretaría de Salud del Distrito Federal revelan que tan sólo en esta ciudad 
+          se produce más de media tonelada de heces fecales a diario, que suman 182 toneladas al 
+          año..
+        </p>
       </div>
     </ng-template>
     <ng-template ngbSlide>
       <img [src]="images[2]" alt="Random third slide">
       <div class="carousel-caption">
         <h3>Una mascota es para toda la vida</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        <p>Si encontramos un animal abandonado o perdido y decidimos acudir al veterinario, el centro 
+          estará obligado a comprobar de forma gratuita si tiene microchip para poder localizar a sus 
+          dueños. Un gesto tan sencillo como éste puede salvar la vida de un animal.
+        </p>
       </div>
     </ng-template>
   </ngb-carousel>
