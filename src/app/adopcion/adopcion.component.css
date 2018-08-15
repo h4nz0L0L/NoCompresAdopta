@@ -46,17 +46,3 @@
         padding-top: 20px;
   
     }
-  
-  /* Footer */
-  .footer {
-    position: flex;
-    margin-bottom: 1px;
-    padding: 60px;
-    text-align: center;
-    background: rgb(0, 0, 0);
-    color: white;
-    margin-top: 0px;
-    font-size: 12px;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-  
-  }
