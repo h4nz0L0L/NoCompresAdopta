@@ -6,12 +6,12 @@
       grid-template-columns: 1fr 1fr 1fr 1fr;
       background-color: rgb(252, 252, 252);
       padding-top: 1%;
-      padding-left: 5%;
-      padding-right: 5%;
+      padding-left: 4%;
+      padding-right: 4%;
     }
     .seccion-oficio {
       background-color: #F3EDED;
-      border: 15px solid #003CB2;
+      border: 15px solid #F3EDED;
       padding: 2px;
       height: 370px;
       text-align: center;
@@ -27,6 +27,8 @@
     }
   
     .oficio-nombre{
+      /* border-style: solid;
+      border-color: #92a8d1; */
       background-color: rgb(1, 1, 0);
       border: 1px solid rgba(0, 0, 0, 0.8);
       font-family: Roboto, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -35,6 +37,8 @@
     }
     
     .nombre-oficio{
+        /* border-style: solid;
+        border-color: #92a8d1; */
         background-color: #003CB2;
         text-align: center;
         font-size: 26px;
