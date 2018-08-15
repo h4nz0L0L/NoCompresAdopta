@@ -10,8 +10,8 @@
       padding-right: 5%;
     }
     .seccion-oficio {
-      background-color: #01851e;
-      border: 15px solid white;
+      background-color: #F3EDED;
+      border: 15px solid #003CB2;
       padding: 2px;
       height: 370px;
       text-align: center;
@@ -35,6 +35,7 @@
     }
     
     .nombre-oficio{
+        background-color: #003CB2;
         text-align: center;
         font-size: 26px;
         text-transform: uppercase;
@@ -43,6 +44,12 @@
     }
     
     .oficio-imagen{
-        padding-top: 20px;
+        padding-top: 10px;
   
     }
+
+    .oficio-imagen img{
+      object-fit: cover;
+      height: 270px;
+    }
+
