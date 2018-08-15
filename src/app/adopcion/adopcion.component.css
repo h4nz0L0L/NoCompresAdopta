@@ -29,8 +29,8 @@
     .oficio-nombre{
       /* border-style: solid;
       border-color: #92a8d1; */
-      background-color: rgb(1, 1, 0);
-      border: 1px solid rgba(0, 0, 0, 0.8);
+      /* background-color: rgb(1, 1, 0);
+      border: 1px solid rgba(0, 0, 0, 0.8); */
       font-family: Roboto, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       height: 50px;
       color: white;
@@ -39,7 +39,7 @@
     .nombre-oficio{
         /* border-style: solid;
         border-color: #92a8d1; */
-        background-color: #003CB2;
+        background-color: #84ADFB;
         text-align: center;
         font-size: 26px;
         text-transform: uppercase;
@@ -48,11 +48,13 @@
     }
     
     .oficio-imagen{
-        padding-top: 10px;
+        padding-top: 0px;
   
     }
 
     .oficio-imagen img{
+      border-style: solid;
+        border-color: #003DB2;
       object-fit: cover;
       height: 270px;
     }

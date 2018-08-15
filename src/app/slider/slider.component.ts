@@ -9,7 +9,7 @@ export class SliderComponent implements OnInit {
   images: Array<string> = [
     'assets/506.jpg',
     'assets/501.jpg',
-    'assets/507.jpg'
+    'assets/511.jpg'
   ];
 
   
