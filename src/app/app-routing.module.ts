@@ -8,6 +8,7 @@ import { EventosComponent } from './eventos/eventos.component';
 import { ExtravioComponent } from './extravio/extravio.component';
 import { AdopcionComponent } from './adopcion/adopcion.component';
 import { AltaComponent } from './alta/alta.component';
+import { IndiceComponent } from './indice/indice.component';
 
 const routes: Routes = [
   {
@@ -41,6 +42,10 @@ const routes: Routes = [
   {
     path: 'alta', 
     component: AltaComponent 
+  },
+  {
+    path: '', 
+    component: IndiceComponent 
   },
 ];
 

@@ -19,6 +19,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { LoginComponent } from './login/login.component';
 import { FooterComponent } from './footer/footer.component';
 import { AltaComponent } from './alta/alta.component';
+import { IndiceComponent } from './indice/indice.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { AltaComponent } from './alta/alta.component';
     PruebaComponent,
     LoginComponent,
     FooterComponent,
-    AltaComponent
+    AltaComponent,
+    IndiceComponent
   ],
   imports: [
     BrowserModule,
