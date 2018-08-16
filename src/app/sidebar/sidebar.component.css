@@ -90,8 +90,8 @@
   
   .sidebar-nav>.sidebar-brand a:hover {
 
-    color: rgb(35, 32, 211);
-    background: rgba(73, 207, 56, 0.609);
+    color: white;
+    background: #007bff;
     /* background:#71B300; */
   }
   
