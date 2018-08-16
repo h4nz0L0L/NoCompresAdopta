@@ -84,12 +84,15 @@
   
   .sidebar-nav>.sidebar-brand a {
     color: white;
-    background: green;
+    /* background: #039345; */
+    background:#71B300;
   }
   
   .sidebar-nav>.sidebar-brand a:hover {
-    color: blue;
-    background:none;
+
+    color: rgb(35, 32, 211);
+    background: rgba(73, 207, 56, 0.609);
+    /* background:#71B300; */
   }
   
   @media(min-width:768px) {
