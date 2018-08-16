@@ -1,19 +1,17 @@
 .background-white{
-    height: 800px;
+    height: 650px;
 }
 
 .container-form{
+    border: 3px solid #007bff;
     margin-left: 5%;
     margin-right: 20%;
     margin-top: 5%;
     width: 70%;
-    height: 500px;;
-}
-
-h2{
-    font-family: Roboto, Helvetica, Arial;
-    font-size: 24px;
+    height: 540px;
     text-transform: uppercase;
+    border-radius: 8px;
+    padding: 0px 9px 0px 9px;
 }
 
 label, p{
