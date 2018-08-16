@@ -1,4 +1,6 @@
 #wrapper {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -60,13 +62,14 @@
   .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999999;
+    color: black;
+    /* color: #999999; */
   }
   
   .sidebar-nav li a:hover {
     text-decoration: none;
     color: #fff;
-    background:#84ADFB;
+    background:#007bff;
   }
   
   .sidebar-nav li a:active, .sidebar-nav li a:focus {
@@ -80,12 +83,12 @@
   }
   
   .sidebar-nav>.sidebar-brand a {
-    color: whitesmoke;
+    color: white;
     background: green;
   }
   
   .sidebar-nav>.sidebar-brand a:hover {
-    color: #fff;
+    color: blue;
     background:none;
   }
   

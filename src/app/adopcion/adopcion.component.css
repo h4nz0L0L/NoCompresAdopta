@@ -40,7 +40,7 @@
         /* border-style: solid;
         border-color: #92a8d1; */
 
-        background-color: #84ADFB;
+        background-color: #007bff;
         text-align: center;
         font-size: 26px;
         /* text-transform: uppercase; */
@@ -55,10 +55,7 @@
 
     .oficio-imagen img{
       border-style: solid;
-      border-color: #003DB2;
+      border-color: #007bff;
       object-fit: cover;
       height: 270px;
     }
-
-
-

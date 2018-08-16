@@ -35,7 +35,7 @@ label {
 }
 
 input[type=submit] {
-    background-color: rgb(0, 0, 0);
+    background-color:green;
     color: white;
     padding: 14px 22px;
     border: none;
@@ -45,7 +45,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color:rgb(255, 71, 65); 
+    background-color:#007bff; 
 }
 
 .container {
