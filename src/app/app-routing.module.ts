@@ -7,6 +7,7 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { EventosComponent } from './eventos/eventos.component';
 import { ExtravioComponent } from './extravio/extravio.component';
 import { AdopcionComponent } from './adopcion/adopcion.component';
+import { AltaComponent } from './alta/alta.component';
 
 const routes: Routes = [
   {
@@ -36,6 +37,10 @@ const routes: Routes = [
   {
     path: 'adopcion', 
     component: AdopcionComponent 
+  },
+  {
+    path: 'alta', 
+    component: AltaComponent 
   },
 ];
 
