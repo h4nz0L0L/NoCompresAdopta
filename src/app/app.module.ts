@@ -18,6 +18,7 @@ import { PruebaComponent } from './prueba/prueba.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { LoginComponent } from './login/login.component';
 import { FooterComponent } from './footer/footer.component';
+import { AltaComponent } from './alta/alta.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { FooterComponent } from './footer/footer.component';
     SliderComponent,
     PruebaComponent,
     LoginComponent,
-    FooterComponent
+    FooterComponent,
+    AltaComponent
   ],
   imports: [
     BrowserModule,
