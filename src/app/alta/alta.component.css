@@ -1,4 +1,5 @@
 .classy {
+    /* border: 3px solid #007bff; */
     background-color: DodgerBlue;
   }
 
@@ -28,6 +29,7 @@ input[type=submit]:hover {
 }
 
 div {
+    border: 3px solid #007bff;
     max-width: 800px;
     margin:20px auto;
     /* padding-left: 20%; */
